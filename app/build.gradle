@@ -37,7 +37,9 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion '1.3.2'
+        //kotlinCompilerExtensionVersion '1.3.2'
+        kotlinCompilerExtensionVersion '1.0.4'
+        kotlinCompilerVersion '1.5.31'
     }
     packagingOptions {
         resources {
@@ -64,4 +66,9 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
+
+    implementation 'androidx.compose.ui:ui:1.0.4'
+    implementation 'androidx.compose.material:material:1.0.4'
+    implementation 'androidx.compose.animation:animation:1.0.4'
+    implementation 'androidx.compose.foundation:foundation:1.0.4'
 }
